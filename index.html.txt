@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Shafiul Bashar Chowdhury - Project Management Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section {
+            scroll-margin-top: 64px; /* Adjust for fixed header height */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-900">MSBC</a>
+            <ul class="hidden md:flex items-center space-x-8">
+                <li><a href="#about" class="text-gray-600 hover:text-indigo-600 transition duration-300">About</a></li>
+                <li><a href="#projects" class="text-gray-600 hover:text-indigo-600 transition duration-300">Projects</a></li>
+                <li><a href="#skills" class="text-gray-600 hover:text-indigo-600 transition duration-300">Skills</a></li>
+                <li><a href="#contact" class="text-gray-600 hover:text-indigo-600 transition duration-300">Contact</a></li>
+            </ul>
+            <a href="#contact" class="hidden md:inline-block bg-indigo-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-indigo-700 transition duration-300">Hire Me</a>
+            <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden">
+            <ul class="px-6 pb-4 space-y-4">
+                <li><a href="#about" class="block text-gray-600 hover:text-indigo-600">About</a></li>
+                <li><a href="#projects" class="block text-gray-600 hover:text-indigo-600">Projects</a></li>
+                <li><a href="#skills" class="block text-gray-600 hover:text-indigo-600">Skills</a></li>
+                <li><a href="#contact" class="block text-gray-600 hover:text-indigo-600">Contact</a></li>
+                <li><a href="#contact" class="block w-full text-center bg-indigo-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-indigo-700">Hire Me</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20">
+
+        <!-- Hero Section -->
+        <section id="hero" class="flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
+            <div class="md:w-1/2 text-center md:text-left">
+                <span class="text-indigo-600 font-semibold">Hello, I'm</span>
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mt-2 mb-4">Mohammad Shafiul Bashar Chowdhury</h1>
+                <h2 class="text-2xl md:text-3xl text-gray-700 mb-6">Project Management Professional</h2>
+                <p class="text-lg text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">Digital Project Manager with 12+ years leading e-commerce-aligned initiatives (OTT platforms, fintech) and Agile-driven cross-functional teams.</p>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="#contact" class="bg-indigo-600 text-white font-semibold px-8 py-3 rounded-lg hover:bg-indigo-700 transition duration-300">Get In Touch</a>
+                    <a href="#projects" class="bg-white text-gray-700 font-semibold px-8 py-3 rounded-lg border border-gray-300 hover:bg-gray-100 transition duration-300">View My Work</a>
+                </div>
+                 <div class="mt-8 flex justify-center md:justify-start space-x-6 text-gray-500">
+                    <a href="https://www.linkedin.com/in/mohammad-shafiul-bashar-chowdhury" target="_blank" class="hover:text-indigo-600"><i class="fab fa-linkedin fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="md:w-2/5">
+                <img src="https://placehold.co/500x500/E2E8F0/4F46E5?text=MSBC" alt="Mohammad Shafiul Bashar Chowdhury" class="rounded-full shadow-2xl mx-auto" onerror="this.onerror=null;this.src='https://placehold.co/500x500/E2E8F0/4F46E5?text=Image';">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="py-20 mt-20 section">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">About Me</h2>
+            </div>
+            <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+                <div class="md:w-2/3 text-lg text-gray-600 space-y-4">
+                     <p>I am a Digital Project Manager with over 12 years of experience leading e-commerce-aligned initiatives, including OTT platforms and fintech solutions. My expertise lies in steering Agile-driven, cross-functional teams to success. I have a proven ability to deliver complex digital projects, achieving a 100% on-time completion rate, and have optimized workflows by 20%. I am passionate about driving customer-centric solutions through effective stakeholder alignment and merging technical execution with business growth in dynamic, fast-paced environments.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="py-20 section">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Highlighted Projects</h2>
+                <p class="text-lg text-gray-600 mt-2">A selection of my key projects.</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">BREB Advanced Metering Infrastructure (AMI) Solution</h3>
+                        <p class="text-indigo-500 font-semibold mb-4">$108M</p>
+                        <p class="text-gray-600">Led the Bangladesh Rural Electrification Board's (BREB) AMI project, including establishing two Datacenters and deploying 500,000 smart meters by 2025, using Oracle's smart grid ERP.</p>
+                    </div>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">National Payment Gateway "Binimoy"</h3>
+                        <p class="text-indigo-500 font-semibold mb-4">$40M</p>
+                        <p class="text-gray-600">An Interoperable Digital Transaction Platform (IDTP) that streamlines money transactions between mobile financial services (MFSs) and banks.</p>
+                    </div>
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">City Bank PMO Software Implementation</h3>
+                        <p class="text-gray-600">Implemented a PMO dashboard software for City Bank.</p>
+                    </div>
+                </div>
+                 <!-- Project Card 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">T-Sports Platform Upgradation</h3>
+                        <p class="text-gray-600">Accelerated Microservices Migration, UI/UX optimization & Scalability Enhancement Project for the T-Sports OTT Platform.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-20 section">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900">My Skills</h2>
+                <p class="text-lg text-gray-600 mt-2">A snapshot of my technical and professional abilities.</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Project Management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Product Management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Private Public Project-PPP</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Microsoft Office 365</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Asana</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Clickup</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Jira</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Trello</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">MS Project</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Oracle ERP</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Core banking software</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">PCI DSS</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">SEO/SEM</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Stakeholder Management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Process development</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Vendor Management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Operation Management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Google analytics</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Time management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Communication</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Risk management</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Adaptability</span>
+                    <span class="bg-indigo-100 text-indigo-800 text-lg font-semibold px-4 py-2 rounded-full">Problem solving</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20 bg-white -mx-6 px-6 section">
+             <div class="container mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Get In Touch</h2>
+                    <p class="text-lg text-gray-600 mt-2">I'm currently available for new opportunities. Feel free to reach out.</p>
+                </div>
+                <div class="max-w-3xl mx-auto text-center">
+                    <p class="text-xl text-gray-700 mb-8">
+                        Have a project in mind or just want to say hi? My inbox is always open.
+                    </p>
+                    <a href="mailto:shafiulbchowdhury@gmail.com" class="inline-block bg-indigo-600 text-white font-bold text-lg px-8 py-4 rounded-lg hover:bg-indigo-700 transition duration-300">
+                        shafiulbchowdhury@gmail.com
+                    </a>
+                    <div class="mt-12 text-gray-600">
+                        <p class="text-lg font-semibold">Mohammad Shafiul Bashar Chowdhury</p>
+                        <p class="mt-1">5/6, South Begunbari, Tejgaon I/A</p>
+                        <p class="mt-1">+8801711700790</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Mohammad Shafiul Bashar Chowdhury. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = document.querySelectorAll('#mobile-menu a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+
+</body>
+</html>
